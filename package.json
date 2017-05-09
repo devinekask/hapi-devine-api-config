@@ -1,0 +1,24 @@
+{
+  "name": "hapi-devine-api-config",
+  "version": "0.1.0",
+  "description": "🔧 api config helper for Hapi / Mongoose",
+  "main": "index.js",
+  "repository": "devinehowest/hapi-devine-api-config",
+  "author": {
+    "name": "Geoffrey Dhuyvetters",
+    "url": "https://github.com/devinehowest"
+  },
+  "scripts": {
+    "release": "release-it"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-devine": "^1.7.1",
+    "release-it": "^2.7.1"
+  },
+  "dependencies": {
+    "joi": "^10.4.1",
+    "joi-objectid": "^2.0.0"
+  }
+}
