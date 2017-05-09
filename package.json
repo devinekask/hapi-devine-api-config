@@ -1,6 +1,6 @@
 {
   "name": "hapi-devine-api-config",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "🔧 api config helper for Hapi / Mongoose",
   "main": "index.js",
   "repository": "devinehowest/hapi-devine-api-config",
