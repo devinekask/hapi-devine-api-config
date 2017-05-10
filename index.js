@@ -1,5 +1,5 @@
 module.exports = (Model, {
-  apiBase = process.env.API_BASE
+  apiBase = `/api`
 } = {}) => {
 
   const fields = require(`./lib/buildFields.js`)(Model);
