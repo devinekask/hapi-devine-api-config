@@ -17,6 +17,7 @@ module.exports = (Model, {
     projection,
     collectionName,
     modelName,
+    Model,
     route
   };
 
