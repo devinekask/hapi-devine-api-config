@@ -3,7 +3,7 @@ module.exports = (Model, {
   auth = false
 } = {}) => {
 
-  const fields = require(`./lib/buildFields.js`)(Model);
+  const fields = require(`./lib/buildFields.js`)(Model, auth);
   const validation = require(`./lib/buildValidation.js`)(Model, auth);
 
   const projection = require(`./lib/buildProjection.js`)(Model);
