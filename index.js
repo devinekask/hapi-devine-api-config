@@ -1,9 +1,10 @@
 module.exports = (Model, {
-  apiBase = `/api`
+  apiBase = `/api`,
+  auth = false
 } = {}) => {
 
   const fields = require(`./lib/buildFields.js`)(Model);
-  const validation = require(`./lib/buildValidation.js`)(Model);
+  const validation = require(`./lib/buildValidation.js`)(Model, auth);
 
   const projection = require(`./lib/buildProjection.js`)(Model);
   const uploads = require(`./lib/buildUploads.js`)(Model);
